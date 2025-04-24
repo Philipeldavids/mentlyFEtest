@@ -1,6 +1,9 @@
 import React from 'react'
 import ProgramsWidget from '../Programs/ProgramsWidget'
 import GroupCallWidget from '../Activities/GroupCallWidget'
+import ApplicationWidget from '../Forums/ApplicationWidget'
+import RecentActivityWidget from '../Forums/RecentActivityWidget'
+import MentorWidget from '../Forums/MentorWidget'
 
 type DashboardProps = {
     widgets: string[]
@@ -18,19 +21,13 @@ const Dashboard = ({widgets}: DashboardProps) => {
        <GroupCallWidget />
      )}
      {widgets.includes('applications') && (
-        <div className="bg-white rounded-2xl h-100 w-80 row-span-2">
-
-        </div>
+        <ApplicationWidget/>
      )}
      {widgets.includes('mentors') && (
-        <div className="bg-white rounded-2xl h-100 w-75 row-span-2">
-
-        </div>
+        <MentorWidget/>
      )}
      {widgets.includes('recent') && (
-        <div className="bg-white rounded-2xl h-55  ">
-
-  </div>
+        <RecentActivityWidget/>
      )}
 </div>
     </div>
