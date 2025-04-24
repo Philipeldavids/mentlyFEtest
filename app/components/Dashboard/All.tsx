@@ -5,7 +5,7 @@ import WelcomeHeader from './WelcomeHeader'
 import WidgetFlyOut from './WidgetFlyOut'
 import Dashboard from './Dashboard'
 
-const defaultWidgets = ['programs', 'groupcalls', 'applications']
+const defaultWidgets = ['programs', 'groupcalls', 'applications', 'recent', 'mentors']
 
 const All = () => {
 
