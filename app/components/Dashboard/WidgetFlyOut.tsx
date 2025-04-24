@@ -70,7 +70,7 @@ const WidgetControl = ({
               type="checkbox"
               checked={widgets.includes(widget.id)}
               onChange={() => toggleWidget(widget.id)}
-              className="accent-blue-600 ml-auto"
+              className="accent-blue-600 mr-auto"
             />
             </div>
           </label>

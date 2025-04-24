@@ -49,7 +49,7 @@ const Sidebar = () => {
               alt="dashboard"
               width={20}
               height={20} /><Link href="/components/Finances">Finances</Link></li>
-            <li className="flex space-x-6"><Image 
+            <li className="flex space-x-6 hover:bg-white hover:text-purple-800"><Image 
               src="/award.png"
               alt="dashboard"
               width={20}
@@ -59,7 +59,7 @@ const Sidebar = () => {
               alt="dashboard"
               width={20}
               height={20} /><Link href="/components/Analytics">Analytics</Link></li>
-            <li className="flex space-x-6 hover:bg-white, hover:text-purple-800"><Image 
+            <li className="flex space-x-6 hover:bg-white hover:text-purple-800"><Image 
               src="/setting-2.png"
               alt="dashboard"
               width={20}

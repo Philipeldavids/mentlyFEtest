@@ -11,7 +11,7 @@ const RecentActivityWidget = () => {
                           width={16}
                           height={7}
                           />
-                          <div className=' flex space-x-28 items-center'>
+                          <div className=' flex space-x-20 items-center'>
                               <p className='text-sm text-zinc-400'>Recent Activities</p>
                               <span className='text-xs cursor-pointer text-purple-800'>See all</span>
                           </div>
