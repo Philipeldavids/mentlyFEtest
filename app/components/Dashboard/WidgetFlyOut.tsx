@@ -64,13 +64,13 @@ const WidgetControl = ({
             width={14}
             height={8}
             />
-            <div className="flex space-x-15 justify-stretch">
+            <div className="flex space-x-15">
             <span className='text-xs'>{widget.label}</span>
             <input
               type="checkbox"
               checked={widgets.includes(widget.id)}
               onChange={() => toggleWidget(widget.id)}
-              className="accent-blue-600"
+              className="accent-blue-600 ml-auto"
             />
             </div>
           </label>

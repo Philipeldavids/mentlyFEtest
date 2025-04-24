@@ -5,7 +5,7 @@ const GroupCallWidget = () => {
   return (
 
     <div className="bg-white p-3 rounded-2xl h-60 col-span-2">
-         <div className='flex space-x-4 items-center'>
+              <div className='flex space-x-4 items-center'>
                     <Image 
                     src="/famicons_outline.png"
                     alt="burger"
@@ -23,16 +23,23 @@ const GroupCallWidget = () => {
                     height={8}
                     
                     />
-                </div>
-                <div className='w-30 h-40 p-2'>
-                <div className="rounded-2xl bg-[url('/Rectangle.png')] bg-auto bg-no-repeat bg-center">
+              </div>
+              <div className='flex'>
+                <div className='w-50 h-60 rounded p-2'>
+                <Image 
+                src="/Rectangle.png"
+                alt="picture"
+                width={180}
+                height={20}
+                />
 
-                </div>
+                <p className='text-xs text-green-300 w-10 bg-green-200 rounded-2xl p-1'><span className='text-xs'>*</span>Ongoing</p>
 
                 </div>
                 <div>
 
                 </div>
+              </div>
     </div>
   )
 }
