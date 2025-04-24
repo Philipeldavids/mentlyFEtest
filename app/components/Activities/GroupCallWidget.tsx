@@ -33,7 +33,7 @@ const GroupCallWidget = () => {
                 height={20}
                 />
 
-                <p className='text-xs text-green-300 w-10 bg-green-200 rounded-2xl p-1'><span className='text-xs'>*</span>Ongoing</p>
+                <p className='text-xs text-green-300 w-16 bg-green-200 rounded-2xl p-1'><span className='text-xs'>*</span>Ongoing</p>
 
                 </div>
                 <div>
