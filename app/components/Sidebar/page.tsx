@@ -7,13 +7,14 @@ const Sidebar = () => {
     <div className="p-5 w-60 text-white text-md bg-purple-950">
 
         <div className=' flex flex-row space-x-3 m-2 mb-10'>
-            <Image 
+            <Link href="/"><Image 
                 src="/Frame1171276268.png" 
                 alt="logo"
                 width={100}
                 height={100}
                 
         />
+        </Link>
         <Image 
             src="/grid-4.png"
             alt="toggle"
